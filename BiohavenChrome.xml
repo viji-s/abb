@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Biohaven Chrome">
+
+	<listeners>
+		<listener
+			class-name="com.klick.katalyst.biohaven.utilities.ExtentListeners" />
+	</listeners>
+	
+
+	<test name="Biohaven Home page Headers" >
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.HomePageHeaderValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Home page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.HomePageValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Landing page">	
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.LandingPageValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Why Nurtec Odt Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.WhyNurtecOdtPageValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Safety Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.SafetyPageValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Dosing Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.DosingPageValidation" />
+	</classes>
+	</test>
+
+	<test name="Biohaven Patient Story Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.PatientStoryValidation" 	/>
+	</classes>
+	</test>
+
+	<test name="How To Get Nurtec Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.HowToGetNurtecValidation" />
+	</classes>
+	</test>
+
+	<test name="Form Validation-Negative case">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.FormNegativeCaseValidation" 	/>
+	</classes>
+	</test>
+
+<!-- 	<test name="Form Validation-Positive"> -->
+<!-- 	<parameter name="browserName" value="chrome" /> -->
+<!-- 	<classes> -->
+<!-- 	<class name="com.lick.katalyst.biohaven.testcases.FormPositiveCaseValidation" /> -->
+<!-- 	</classes> -->
+<!-- 	</test> -->
+
+
+	<test name="Patient Support-About Migrane">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.AboutMigraneValidation" />
+	</classes>
+	</test>
+
+	<test name="Form Validation-Support For Patient">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.SupportForPatientValidation" />
+	</classes>
+	</test>
+	
+	<test name="Saving Page">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.SavingValidationTest" />
+	</classes>
+	</test>
+	
+	<test name="Saving Page-Signup form Validation">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.GetStartedFormValidation" />
+	</classes>
+	</test>
+	
+	<test name="Footer Validation">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.FooterValidation" />
+	</classes>
+	</test>
+
+	<test name="Form Validation-Faq">
+	<parameter name="browserName" value="chrome" />
+	<classes>
+	<class name="com.lick.katalyst.biohaven.testcases.FaqPageValidation" />
+	</classes>
+	</test>
+
+	<test name="Form Validation-Form One Link">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class
+				name="com.lick.katalyst.biohaven.testcases.FormOneLinkValidation" />
+		</classes>
+	</test>
+
+</suite> 
+

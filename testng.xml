@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Biohaven">
+  <listeners>
+		<listener class-name="com.klick.katalyst.biohaven.utilities.ExtentListeners" />
+	</listeners>
+
+	<test name="Biohaven Home page Headers">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.lick.katalyst.biohaven.testcases.HomePageHeaderValidation" />
+
+		</classes>
+	</test>
+	
+	<test name="Biohaven Home page Footers">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.lick.katalyst.biohaven.testcases.HomePageFooterValidation" />
+		</classes>
+	</test>
+	
+</suite> 
